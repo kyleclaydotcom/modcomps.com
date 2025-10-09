@@ -1,3 +1,7 @@
+main#site-content {
+    padding-top: 56px;
+}
+
 img {
     width: auto;
     max-width: 100%;
@@ -9,6 +13,20 @@ img {
 
 .content.library {
     padding: 30px;
+}
+
+.content.contact.container,
+header#site-header .container {
+    max-width: 768px;
+    margin: auto;
+}
+
+.contact .form-floating > textarea.form-control {
+    height: 200px;
+}
+
+.navbar-collapse {
+    flex-grow: inherit;
 }
 
 @media (min-width: 992px) {
