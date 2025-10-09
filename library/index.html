@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Library : : ModComps</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header id="site-header">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container">
+                <a class="navbar-brand" href="/">ModComps</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="/">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="/library">Library</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/docs">Docs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main id="site-content">
+        <section class="content library">
+            <div class="row">
+                <div class="col-2">
+                    <div id="category-list" class="list-group sticky-top">
+                        <a class="list-group-item list-group-item-action" href="#banners">Banners</a>
+                        <a class="list-group-item list-group-item-action" href="#splits">Splits</a>
+                        <a class="list-group-item list-group-item-action" href="#pods">Pods</a>
+                        <a class="list-group-item list-group-item-action" href="#strips">Strips</a>
+                        <a class="list-group-item list-group-item-action" href="#galleries">Galleries</a>
+                        <a class="list-group-item list-group-item-action" href="#carousels">Carousels</a>
+                    </div>
+                </div>
+                <div class="col-8 collection">
+                    <div data-bs-spy="scroll" data-bs-target="#category-list" data-bs-smooth-scroll="true"
+                        class="scrollspy-example" tabindex="0">
+                        <ul id="source-list" class="row list-unstyled">
+                            <h2 id="banners">Banners</h2>
+                            <li class="col-6 item">
+                                <img src="../images/banners.jpg" />
+                                <code>
+                                    <h1>Hello, world!</h1>
+                                </code>
+                            </li>
+                            <li class="col-6 item">
+                                <img src="../images/banners.jpg" />
+                                <code>
+                                    <h1>Whaddup, world!</h1>
+                                </code>
+                            </li>
+                            <li class="col-6 item">
+                                <img src="../images/banners.jpg" />
+                                <code>
+                                    <h1>Sup, world!</h1>
+                                </code>
+                            </li>
+                            <li class="col-6 item">
+                                <img src="../images/banners.jpg" />
+                                <code>
+                                    <h1>Asuh, world!</h1>
+                                </code>
+                            </li>
+                            <h2 id="splits">Splits</h2>
+                            <li class="col-6 item">
+                                <img src="../images/splits.jpg" />
+                            </li>
+                            <li class="col-6 item">
+                                <img src="../images/splits.jpg" />
+                            </li>
+                            <li class="col-6 item">
+                                <img src="../images/splits.jpg" />
+                            </li>
+                            <li class="col-6 item">
+                                <img src="../images/splits.jpg" />
+                            </li>
+                            <h2 id="pods">Pods</h2>
+                            <li class="col-6 item">
+                                <img src="../images/pods.jpg" />
+                            </li>
+                            <li class="col-6 item">
+                                <img src="../images/pods.jpg" />
+                            </li>
+                            <li class="col-6 item">
+                                <img src="../images/pods.jpg" />
+                            </li>
+                            <li class="col-6 item">
+                                <img src="../images/pods.jpg" />
+                            </li>
+                            <h2 id="strips">Strips</h2>
+                            <li class="col-6 item">
+                                <img src="../images/strips.jpg" />
+                            </li>
+                            <li class="col-6 item">
+                                <img src="../images/strips.jpg" />
+                            </li>
+                            <li class="col-6 item">
+                                <img src="../images/strips.jpg" />
+                            </li>
+                            <li class="col-6 item">
+                                <img src="../images/strips.jpg" />
+                            </li>
+                            <h2 id="galleries">Galleries</h2>
+                            <li class="col-6 item">
+                                <img src="../images/galleries.jpg" />
+                            </li>
+                            <li class="col-6 item">
+                                <img src="../images/galleries.jpg" />
+                            </li>
+                            <li class="col-6 item">
+                                <img src="../images/galleries.jpg" />
+                            </li>
+                            <li class="col-6 item">
+                                <img src="../images/galleries.jpg" />
+                            </li>
+                            <h2 id="carousels">Carousels</h2>
+                            <li class="col-6 item">
+                                <img src="../images/carousels.jpg" />
+                            </li>
+                            <li class="col-6 item">
+                                <img src="../images/carousels.jpg" />
+                            </li>
+                            <li class="col-6 item">
+                                <img src="../images/carousels.jpg" />
+                            </li>
+                            <li class="col-6 item">
+                                <img src="../images/carousels.jpg" />
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <nav>
+                        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                            <button class="nav-link active" id="nav-mockup-tab" data-bs-toggle="tab" data-bs-target="#nav-mockup" type="button"
+                                role="tab" aria-controls="nav-mockup" aria-selected="true">Mockup</button>
+                            <button class="nav-link" id="nav-code-tab" data-bs-toggle="tab" data-bs-target="#nav-code" type="button"
+                                role="tab" aria-controls="nav-code" aria-selected="false">View Code</button>
+                        </div>
+                    </nav>
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="nav-mockup" role="tabpanel" aria-labelledby="nav-mockup-tab" tabindex="0">
+                                <p class="small">Click/drag to rearrange your components.</p>
+                            
+                                <button id="download-mockup-btn" class="btn btn-primary btn-sm mb-3">
+                                    Download Mockup (JPG)
+                                </button>
+                            
+                                <ul id="selected-list" class="list-unstyled">
+                                </ul>
+                            </div>
+                            <div class="tab-pane fade" id="nav-code" role="tabpanel" aria-labelledby="nav-code-tab" tabindex="0">
+                                <ul id="selected-code-list" class="list-unstyled">
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.2/Sortable.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const sourceList = document.getElementById('source-list');
+            const selectedList = document.getElementById('selected-list');
+            const selectedCodeList = document.getElementById('selected-code-list'); // Get the code list
+
+            // --- New Download Feature Logic ---
+            const downloadBtn = document.getElementById('download-mockup-btn');
+            // const selectedList = document.getElementById('selected-list');
+
+            if (downloadBtn) {
+                downloadBtn.addEventListener('click', () => {
+                    // Check if the list has any items before attempting to download
+                    if (selectedList.children.length === 0) {
+                        alert("The Mockup list is empty. Add some components first!");
+                        return;
+                    }
+
+                    // Options for html2canvas
+                    const options = {
+                        // Ignore the remove buttons from the final image
+                        ignoreElements: (element) => {
+                            return element.classList.contains('remove-item');
+                        },
+                        // Use a white background (important for JPEGs)
+                        backgroundColor: '#ffffff',
+                        // Enable image cross-origin access if needed (optional)
+                        useCORS: true
+                    };
+
+                    // Convert the list content to a canvas
+                    html2canvas(selectedList, options).then(canvas => {
+                        // 1. Convert the canvas to a JPEG data URL (quality 0.9)
+                        const imageURL = canvas.toDataURL('image/jpeg', 0.9);
+
+                        // 2. Create a temporary link element for the download
+                        const link = document.createElement('a');
+
+                        // 3. Set the download filename and image source
+                        link.download = `mockup-${new Date().toISOString().split('T')[0]}.jpg`;
+                        link.href = imageURL;
+
+                        // 4. Trigger the download and clean up
+                        document.body.appendChild(link);
+                        link.click();
+                        document.body.removeChild(link);
+                    });
+                });
+            }
+
+            // Initialize SortableJS on the target list to make it draggable
+            // NOTE: SortableJS is only initialized on the Mockup list. 
+            // The code list will be updated based on the Mockup list's order.
+            new Sortable(selectedList, {
+                animation: 150,
+                ghostClass: 'sortable-ghost',
+                chosenClass: 'sortable-chosen',
+                dragClass: 'sortable-drag',
+
+                // This 'onEnd' function is the key to keeping the code list mirrored
+                onEnd: function (evt) {
+                    // Get all items in the reordered selectedList
+                    const mockupItems = Array.from(selectedList.children);
+
+                    // Reorder the selectedCodeList to match the new order of selectedList
+                    const fragment = document.createDocumentFragment();
+                    mockupItems.forEach(mockupItem => {
+                        // Get the unique ID from the mockup item (added in the 'click' listener)
+                        const uniqueId = mockupItem.dataset.uniqueId;
+
+                        // Find the corresponding code item using the unique ID
+                        const codeItem = selectedCodeList.querySelector(`[data-unique-id="${uniqueId}"]`);
+
+                        if (codeItem) {
+                            fragment.appendChild(codeItem);
+                        }
+                    });
+                    selectedCodeList.appendChild(fragment);
+                }
+            });
+
+            // Variable to generate unique IDs for mirrored elements
+            let uniqueItemId = 0;
+
+            // --- Add Item Logic (Mirrors to both lists) ---
+            sourceList.addEventListener('click', (event) => {
+                const clickedItem = event.target.closest('.item');
+                if (!clickedItem) return;
+
+                // 1. Generate a unique ID for the pair of list items
+                const currentUniqueId = uniqueItemId++;
+
+                // --- Mockup List Item ---
+                const newItemMockup = clickedItem.cloneNode(true);
+                newItemMockup.classList.remove('item-selected');
+                // Add the unique ID to the mockup item
+                newItemMockup.dataset.uniqueId = currentUniqueId;
+
+                // Add a visual indicator (like a trash icon) for easy removal
+                const removeButton = document.createElement('span');
+                removeButton.classList.add('remove-item', 'btn', 'btn-danger', 'btn-sm', 'ms-2');
+                removeButton.textContent = 'X';
+                // Append the button to a div/span within the clone that will be visible
+                const contentContainer = document.createElement('div');
+                contentContainer.style.display = 'flex';
+                contentContainer.style.alignItems = 'center';
+                contentContainer.innerHTML = newItemMockup.querySelector('img') ? newItemMockup.querySelector('img').outerHTML : '';
+                contentContainer.appendChild(removeButton);
+
+                // Replace the content of the list item
+                newItemMockup.innerHTML = '';
+                newItemMockup.appendChild(contentContainer);
+
+
+                // --- Code List Item ---
+                const newItemCode = document.createElement('li');
+                newItemCode.classList.add('item', 'col-12'); // Use col-12 for full width in the code tab
+                // Add the unique ID to the code item
+                newItemCode.dataset.uniqueId = currentUniqueId;
+
+                // Get the HTML code from the original item's <code> tag
+                const codeElement = clickedItem.querySelector('code');
+                if (codeElement) {
+                    // Create a new <code> element for the code list
+                    const newCodeBlock = document.createElement('code');
+                    newCodeBlock.textContent = codeElement.textContent.trim();
+                    newCodeBlock.style.display = 'block'; // Ensure the code block takes up space
+                    newCodeBlock.style.whiteSpace = 'pre'; // Preserve formatting
+                    newCodeBlock.style.backgroundColor = '#f4f4f4';
+                    newCodeBlock.style.padding = '5px';
+                    newCodeBlock.style.marginBottom = '10px';
+                    newItemCode.appendChild(newCodeBlock);
+                } else {
+                    // If no <code> tag, just add a placeholder text
+                    newItemCode.textContent = clickedItem.textContent.trim();
+                }
+
+                // 3. Add to both lists
+                selectedList.appendChild(newItemMockup);
+                selectedCodeList.appendChild(newItemCode);
+            });
+
+            // --- Remove Item Logic (Mirrors to both lists) ---
+            selectedList.addEventListener('click', (event) => {
+                // Check if the actual remove button or the list item itself was clicked
+                const clickedRemoveButton = event.target.closest('.remove-item');
+                const clickedMockupItem = event.target.closest('.item');
+
+                // Only proceed if a remove button or an item in the *selected list* was clicked
+                if (!clickedMockupItem || !selectedList.contains(clickedMockupItem)) return;
+
+                // Determine if we should remove the item
+                let itemToRemove = null;
+                if (clickedRemoveButton) {
+                    // If the explicit remove button was clicked, use its parent item
+                    itemToRemove = clickedRemoveButton.closest('.item');
+                } else {
+                    // If the item itself was clicked (and no explicit button), remove it
+                    itemToRemove = clickedMockupItem;
+                }
+
+                if (itemToRemove) {
+                    const uniqueIdToRemove = itemToRemove.dataset.uniqueId;
+
+                    // 1. Remove from the Mockup list
+                    itemToRemove.remove();
+
+                    // 2. Find and remove the corresponding item from the Code list using the unique ID
+                    const codeItemToRemove = selectedCodeList.querySelector(`[data-unique-id="${uniqueIdToRemove}"]`);
+                    if (codeItemToRemove) {
+                        codeItemToRemove.remove();
+                    }
+                    // console.log(`Removed pair with ID: ${uniqueIdToRemove}`);
+                }
+            });
+
+        });
+    </script>
+</body>
+
+</html>
